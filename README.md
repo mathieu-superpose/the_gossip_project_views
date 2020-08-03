@@ -1,24 +1,51 @@
-# README
+# The Gossip Project - Views v1.0
+_l'app putasse_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!-- ![](images/the_gossip_project_views.png?raw=true) -->
 
-Things you may want to cover:
+## Application
 
-* Ruby version
+Réseau social de partage et commentaires de potins, créée dans le cadre de The Hacking Project
 
-* System dependencies
+## Installation
 
-* Configuration
+- Pre-Installer bundle et gem dépendencies.
+  ```
+  bundle install
+  bundle update
+  ```
+- Configuration de base de donnée.
+  
+  On utilise le postgres comme le base de donnée. Pour exécuter ce projet avec votre potgres en local, vous devez avoir ou créer un utilisateur pour le postgres.
 
-* Database creation
+  >username: postgres
+  >password: postgres
 
-* Database initialization
+  Si vous ne voulez pas configurer cet utilisateur sur votre ordinateur. Il faudrait juste remplacer votre utilisateur dans le fichier `config/database.yml`
 
-* How to run the test suite
+  ```yml
+  development:
+  <<: *default
+  database: bairbnb_development
+  host: localhost
+  username: <<your-user-name>>
+  password: <<your-password>>
+  ```
 
-* Services (job queues, cache servers, search engines, etc.)
+- Exécuter le base de donnée sur votre ordinateur
+  
+  ```bash
+  rails db:create #ou rails db:create:all #ou rake db:create:all
+  rails db:migrate
+  ```
 
-* Deployment instructions
 
-* ...
+## Contributeurs
+
+- [:fire: Stanislas BASQUIN](https://github.com/StanislasBASQUIN)
+- [:v: Tien Duy NGUYEN](https://github.com/tienduy-nguyen)
+- [:v: Hugo Péran Séjourné](https://github.com/HugoPeranSejourne)
+- [:seedling: Mathieu JOLY](https://github.com/mathieu-superpose)
+- [:seedling: Vivien Ploix](https://github.com/Vivien-Ploix)
+- [:fire: Chérif BA](https://github.com/barifche)
+
