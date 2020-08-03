@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'team', to: 'team#show'
   get 'contact', to: 'contact#show'
+  get 'welcome/', to: 'welcome#show'
   get 'welcome/:first_name', to: 'welcome#show'
   get 'gossips/:id', to: 'gossip#gossip', as:'gossip'
 
