@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheGossipProjectViews</title>
+  </head>
+
+  <body>
+    <p>COUCOU !</p>
+    <p>Auteur: <%= link_to @gossip.user.first_name , profile_path(:first_name => @gossip.user.first_name)%></p>
+    <p>Id: <%= @gossip.id %></p>
+    <p>Titre: <%= @gossip.title %></p>
+    <p>Content: <%= @gossip.content %></p>
+    <p>Date de création: <%= @gossip.created_at %></p>
+
+  </body>
+</html>

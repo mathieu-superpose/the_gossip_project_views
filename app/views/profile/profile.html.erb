@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheGossipProjectViews</title>
+  </head>
+
+  <body>
+    <h4>Voici le profile d'auteur:</h4>
+   
+    <p>First name: <%= @user.first_name %></p>
+    <p>Last name: <%= @user.last_name %></p>
+    <p>Age: <%= @user.age %></p>
+    <p>Email: <%= @user.email %></p>
+    <p>Description: <%= @user.description %></p>
+    <p>City: <%= @user.city.name %></p>
+
+<br>
+    <p>Nombrte de potins: <%= @user.gossips.size %></p>
+    <p>List of potins: </p>
+    <% @user.gossips.each do |gossip|  %>
+     <p>Titre: <%= gossip.title %></p>
+      <p>Content: <%= gossip.content %></p>
+    <% end %>
+
+  </body>
+</html>
