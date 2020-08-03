@@ -1,7 +1,7 @@
 # The Gossip Project - Views v1.0
 _l'app putasse_
 
-<div style="text-align:center">
+<div style="text-align:center" align="center">
   <img alt="Gossip" src="app/assets/images/the_gossip_project.png">
 </div>
 
