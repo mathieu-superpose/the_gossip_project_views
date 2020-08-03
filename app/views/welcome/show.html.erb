@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheGossipProjectViews</title>
+  </head>
+
+  <body>
+
+    <p>test welcome <%= @first_name %></p>
+
+    <% Gossip.all.each do |gossip| %>
+  <p>
+    <%= gossip.user.first_name %><br/>
+    <%= gossip.title %><br/>
+
+    <%= link_to gossip.id, gossip_path(gossip.id) %>
+  </p>
+<% end %>
+
+  </body>
+</html>
