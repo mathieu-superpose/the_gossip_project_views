@@ -7,23 +7,24 @@ _l'app putasse_
 
 ## Application
 
-Réseau social de partage et commentaires de potins, créée dans le cadre de The Hacking Project
+Réseau social de partage de potins, créé dans le cadre de The Hacking Project
 
 ## Installation
 
-- Pre-Installer bundle et gem dépendencies.
+- Installez au préalable les gem  et dépendences.
   ```
   bundle install
   bundle update
   ```
-- Configuration de base de donnée.
+- Configurez la base de donnée
   
-  On utilise le postgres comme le base de donnée. Pour exécuter ce projet avec votre potgres en local, vous devez avoir ou créer un utilisateur pour le postgres.
+  La gestion de la base de données est faite avec Postgres.
+  Pour exécuter ce projet en local, créez une clé sur le modèle suivant:
 
   >username: postgres
   >password: postgres
 
-  Si vous ne voulez pas configurer cet utilisateur sur votre ordinateur. Il faudrait juste remplacer votre utilisateur dans le fichier `config/database.yml`
+  Sinon faites les modifications nécessaires dans le fichier `config/database.yml`
 
   ```yml
   development:
@@ -34,7 +35,7 @@ Réseau social de partage et commentaires de potins, créée dans le cadre de Th
   password: <<your-password>>
   ```
 
-- Exécuter le base de donnée sur votre ordinateur
+- Exécutez le base de donnée sur votre ordinateur
   
   ```bash
   rails db:create #ou rails db:create:all #ou rake db:create:all
@@ -44,10 +45,10 @@ Réseau social de partage et commentaires de potins, créée dans le cadre de Th
 
 ## Contributeurs
 
-- [:fire: Stanislas BASQUIN](https://github.com/StanislasBASQUIN)
-- [:v: Tien Duy NGUYEN](https://github.com/tienduy-nguyen)
-- [:v: Hugo Péran Séjourné](https://github.com/HugoPeranSejourne)
-- [:seedling: Mathieu JOLY](https://github.com/mathieu-superpose)
-- [:seedling: Vivien Ploix](https://github.com/Vivien-Ploix)
-- [:fire: Chérif BA](https://github.com/barifche)
+- [:bell: Stanislas BASQUIN](https://github.com/StanislasBASQUIN)
+- [:dragon_face: Tien Duy NGUYEN](https://github.com/tienduy-nguyen)
+- [:city_sunset: Hugo Péran Séjourné](https://github.com/HugoPeranSejourne)
+- [:mega: Mathieu JOLY](https://github.com/mathieu-superpose)
+- [:santa: Vivien Ploix](https://github.com/Vivien-Ploix)
+- [:mortar_board: Chérif BA](https://github.com/barifche)
 
