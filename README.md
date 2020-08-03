@@ -1,7 +1,7 @@
 # The Gossip Project - Views v1.0
 _l'app putasse_
 
-![](images/the_gossip_project_views.png?raw=true)
+![](images/the_gossip_project.png?raw=true)
 
 ## Application
 
