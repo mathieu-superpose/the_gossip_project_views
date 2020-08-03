@@ -6212,3 +6212,17 @@ Processing by WelcomeController#show as HTML
 Completed 200 OK in 70ms (Views: 65.6ms | ActiveRecord: 2.6ms)
 
 
+Started GET "/team" for ::1 at 2020-08-03 22:15:05 +0200
+Processing by TeamController#show as HTML
+  Rendering team/show.html.erb within layouts/application
+  Rendered team/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2020-08-03 22:16:12 +0200
+Processing by TeamController#show as HTML
+  Rendering team/show.html.erb within layouts/application
+  Rendered team/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
