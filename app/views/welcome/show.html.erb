@@ -23,6 +23,9 @@
             <div class="card-heading d-flex">
               <div class="pull-left d-flex author">
                 <div class="pull-left mr-2">
+                  <% @images  = ["https://www.bootdey.com/img/Content/user_1.jpg", "https://www.bootdey.com/img/Content/user_2.jpg", "https://www.bootdey.com/img/Content/user_3.jpg"] %>
+                  <% @random_no = rand(3) %>
+                  <% @random_image = @images[@random_no] %>
                   <img src="<%= @random_image%>" class="rounded-circle img-fluid"
                     alt="user profile image" style="height:40px;width:40px">
                 </div>
