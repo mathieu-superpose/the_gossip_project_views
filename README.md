@@ -46,7 +46,7 @@ Réseau social de partage de potins, créé dans le cadre de The Hacking Project
 
 - Optimisation graphique
 
-- Génération des profils aléatoire sexués, photos de profil concordantes
+- Génération sexuée des profils aléatoire, photos de profil en accord
 
 - Un peu plus de putasseries
 
