@@ -41,7 +41,16 @@ Réseau social de partage de potins, créé dans le cadre de The Hacking Project
   rails db:create #ou rails db:create:all #ou rake db:create:all
   rails db:migrate
   ```
+  
+ ## Améliorations possibles
 
+- Optimisation graphique
+
+- Génération des profils aléatoire sexués, photos de profil concordantes
+
+- Un peu plus de putasseries
+
+- Glow in the dark mode, et canards qui te suivent tout le temps 🦆🦆🦆
 
 ## Contributeurs
 
